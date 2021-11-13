@@ -1,0 +1,40 @@
+/* REACT SLICK ARROW CUSTOM CSS */
+.react__slick__cast {
+    position: relative;
+  }
+  
+  .react__slick__cast .slick-prev,
+  .react__slick__cast .slick-next {
+    position: absolute;
+    top: 50%;
+  }
+  .react__slick__cast .slick-prev {
+    color: white;
+    z-index: 1;
+    height: 50px;
+    width: 70px;
+    border-radius: 8%;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    text-shadow: -2px 2px 6px black;
+  }
+  .react__slick__cast .slick-next {
+    color: white;
+    z-index: 1;
+    height: 50px;
+    width: 80px;
+    border-radius: 8%;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    text-shadow: 2px 2px 6px black;
+  }
+  
+  .react__slick__cast .slick-prev:before, .slick-next:before {
+    color:white;
+  }
+
+  
+.react__slick__cast {
+  position: relative;
+}
+
